@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+/* INDEX STYLING */
+
+.wrapper-index{
+    display: grid;
+    min-height: 100vh;
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    /* justify-items: center; */
+    
+}
+
+.header-index{
+    /* border: 1px solid red; */
+    background-color: white;
+    grid-row: 1/3;
+    grid-column: 2/3;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Trajan Pro 3';
+    font-size: larger;
+    
+}
+
+cite{
+    /* border: 1px solid red; */
+    background-color: white;
+    grid-row: 3/4;
+    grid-column: 2/3;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-index{
+    background-color: black;
+    color: white;
+
+    grid-row: 4/5;
+    grid-column: 2/3;
+
+    padding: 8px 15px;
+
+    margin: auto;
+
+    
+}
+
+.footer-index{
+    /* border: 1px solid red; */
+    background-color: white;
+    grid-row: 5/6;
+    grid-column: 2/3;
+
+    margin: auto;
+}
+
+.footer-index img{
+    width: 40px;
+}
+
+.footer-index img:hover{
+    width: 41px;
+    filter: invert();
+    
+}
+
+img{
+    grid-row: 1/6;
+    grid-column: 1/2;
+
+    height: 100%;
+    width: 100%;
+}
+
+/* ABOUT STYLING */
+
+/* CONTACT STYLING */
+
