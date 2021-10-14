@@ -73,7 +73,6 @@ cite{
 }
 
 .footer-index img:hover{
-    width: 41px;
     filter: invert();
     
 }
@@ -91,7 +90,7 @@ img{
     display: grid;
     min-height: 100vh;
 
-    grid-template-columns: auto 40rem;
+    grid-template-columns: 67% auto;
     grid-template-rows: 9rem auto 4rem;
 }
 
@@ -114,6 +113,22 @@ nav{
     background-color: white;
     grid-row: 1/2;
     grid-column: 2/3;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+    align-items: center;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Trajan Pro 3';
+    font-size: 9px;
+    font-weight: lighter;
+
+    padding: 0 1rem;
 }
 
 main{
@@ -123,11 +138,27 @@ main{
     grid-column: 1/3;
 }
 
-footer{
+.footer-general{
     border: 1px solid red;
     background-color: white;
     grid-row: 3/4;
-    grid-column: 1/3;
+    grid-column: 1/2;
+
+    padding-right: 0rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+}
+
+.footer-general img{
+    width: 20px;
+    height: auto;
+}
+
+.footer-general img:hover{
+    filter: invert();
+    
 }
 
 /* ABOUT STYLING */
