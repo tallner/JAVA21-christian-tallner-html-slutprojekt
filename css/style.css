@@ -8,17 +8,16 @@
 
 /* INDEX STYLING */
 
-.wrapper-index{
+.index-wrapper{
     display: grid;
     min-height: 100vh;
 
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
-    /* justify-items: center; */
     
 }
 
-.header-index{
+.index-header{
     /* border: 1px solid red; */
     background-color: white;
     grid-row: 1/3;
@@ -34,7 +33,7 @@
     
 }
 
-cite{
+.index-cite{
     /* border: 1px solid red; */
     background-color: white;
     grid-row: 3/4;
@@ -46,9 +45,8 @@ cite{
     align-items: center;
 }
 
-.a-index{
+.index-enter{
     background-color: black;
-    color: white;
 
     grid-row: 4/5;
     grid-column: 2/3;
@@ -56,11 +54,13 @@ cite{
     padding: 8px 15px;
 
     margin: auto;
-
-    
 }
 
-.footer-index{
+.index-enter a{
+    color: white;
+}
+
+.index-footer{
     /* border: 1px solid red; */
     background-color: white;
     grid-row: 5/6;
@@ -69,23 +69,120 @@ cite{
     margin: auto;
 }
 
-.footer-index img{
+.index-footer img{
     width: 40px;
 }
 
-.footer-index img:hover{
-    width: 41px;
+.index-footer img:hover{
     filter: invert();
     
 }
 
-img{
+.index-img{
     grid-row: 1/6;
     grid-column: 1/2;
 
     height: 100%;
     width: 100%;
 }
+
+/* COMMON STYLING - header, nav, footer */
+/* Pages: work aboutme contact*/
+
+.wrapper-common{
+    display: grid;
+    min-height: 100vh;
+
+    grid-template-columns: auto 60% 20% auto; /**/
+    grid-template-rows: 9rem auto 4rem;
+}
+
+.header-common{
+    /* border: 1px solid red; */
+    background-color: white;
+
+    grid-row: 1/2;
+    grid-column: 2/3;
+
+    font-family: 'Trajan Pro 3';
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nav-common{
+    /* border: 1px solid red; */
+    background-color: white;
+ 
+    grid-row: 1/2;
+    grid-column: 3/4;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-common a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Trajan Pro 3';
+    font-size: 9px;
+    font-weight: lighter;
+
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+
+.footer-common{
+    /* border: 1px solid red; */
+    background-color: white;
+
+    grid-row: 3/4;
+    grid-column: 2/4;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-common img{
+    width: 20px;
+    height: auto;
+}
+
+.footer-common img:hover{
+    filter: invert();
+    
+}
+
+/* WORK STYLING */
+
+.work-main{
+    /* border: 1px solid red; */
+    background-color: white;
+
+    grid-row: 2/3;
+    grid-column: 2/4;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.work-main img{
+    width: 100%;
+}
+.work-main figure{
+    border: 1px black solid;
+
+    margin-bottom: 2rem;
+    
+    flex-basis: 30%;
+}
+
 
 /* ABOUT STYLING */
 
