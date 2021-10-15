@@ -8,7 +8,7 @@
 
 /* INDEX STYLING */
 
-.wrapper-index{
+.index-wrapper{
     display: grid;
     min-height: 100vh;
 
@@ -17,7 +17,7 @@
     
 }
 
-.header-index{
+.index-header{
     /* border: 1px solid red; */
     background-color: white;
     grid-row: 1/3;
@@ -33,7 +33,7 @@
     
 }
 
-cite{
+.index-cite{
     /* border: 1px solid red; */
     background-color: white;
     grid-row: 3/4;
@@ -45,9 +45,8 @@ cite{
     align-items: center;
 }
 
-.a-index{
+.index-enter{
     background-color: black;
-    color: white;
 
     grid-row: 4/5;
     grid-column: 2/3;
@@ -55,11 +54,13 @@ cite{
     padding: 8px 15px;
 
     margin: auto;
-
-    
 }
 
-.footer-index{
+.index-enter a{
+    color: white;
+}
+
+.index-footer{
     /* border: 1px solid red; */
     background-color: white;
     grid-row: 5/6;
@@ -68,16 +69,16 @@ cite{
     margin: auto;
 }
 
-.footer-index img{
+.index-footer img{
     width: 40px;
 }
 
-.footer-index img:hover{
+.index-footer img:hover{
     filter: invert();
     
 }
 
-img{
+.index-img{
     grid-row: 1/6;
     grid-column: 1/2;
 
@@ -86,9 +87,9 @@ img{
 }
 
 /* COMMON STYLING - header, nav, footer */
+/* Pages: work aboutme contact*/
 
-/* WORK STYLING */
-.wrapper-work{
+.wrapper-common{
     display: grid;
     min-height: 100vh;
 
@@ -96,7 +97,7 @@ img{
     grid-template-rows: 9rem auto 4rem;
 }
 
-header{
+.header-common{
     /* border: 1px solid red; */
     background-color: white;
 
@@ -111,7 +112,7 @@ header{
     align-items: flex-start;
 }
 
-nav{
+.nav-common{
     /* border: 1px solid red; */
     background-color: white;
  
@@ -124,7 +125,7 @@ nav{
     align-items: center;
 }
 
-nav a{
+.nav-common a{
     color: black;
     text-decoration: none;
     font-family: 'Trajan Pro 3';
@@ -134,30 +135,8 @@ nav a{
     padding: 0rem 0rem 0rem 1rem;
 }
 
-main{
-    /* border: 1px solid red; */
-    background-color: white;
 
-    grid-row: 2/3;
-    grid-column: 2/4;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-
-main img{
-    width: 100%;
-}
-figure{
-    border: 1px black solid;
-
-    margin-bottom: 2rem;
-    
-    flex-basis: 30%;
-}
-
-.footer-general{
+.footer-common{
     /* border: 1px solid red; */
     background-color: white;
 
@@ -170,15 +149,40 @@ figure{
     align-items: center;
 }
 
-.footer-general img{
+.footer-common img{
     width: 20px;
     height: auto;
 }
 
-.footer-general img:hover{
+.footer-common img:hover{
     filter: invert();
     
 }
+
+/* WORK STYLING */
+
+.work-main{
+    /* border: 1px solid red; */
+    background-color: white;
+
+    grid-row: 2/3;
+    grid-column: 2/4;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.work-main img{
+    width: 100%;
+}
+.work-main figure{
+    border: 1px black solid;
+
+    margin-bottom: 2rem;
+    
+    flex-basis: 30%;
+}
+
 
 /* ABOUT STYLING */
 
