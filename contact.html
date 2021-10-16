@@ -26,39 +26,37 @@
             <form class="contact-form" id="form" name="form" method="post" action="mailto:ctallner@hotmail.com" target="_blank">
 
                 <div class="contact-first-name contact-box">
-                    <label for="fname">First name *</label> 
-                    <input class="textinput" aria-required="true" type="text" name="fname" id="fname" />
+                    <label for="fname">First name</label> 
+                    <input class="textinput" type="text" name="fname" id="fname" />
                 </div>
                 
                 <div class="contact-last-name contact-box">
-                    <label for="lname">Last name *</label>
-                    <input class="textinput" aria-required="true" type="text" name="lname" id="lname" />
+                    <label for="lname">Last name</label>
+                    <input class="textinput" type="text" name="lname" id="lname" />
                 </div>
 
                 <div class="contact-subject contact-box">
-                    <label for="subject">Subject *</label>
-                    <input class="textinput" aria-required="true" type="text" name="subject" id="subject"/>
+                    <label for="subject">Subject</label>
+                    <input class="textinput" type="text" name="subject" id="subject"/>
                 </div>
                 
                 <div class="contact-email contact-box">
-                    <label for="e-mail">E-mail *</label>
-                    <input class="textinput" aria-required="true" type="text" name="e-mail" id="e-mail" />
+                    <label for="e-mail">E-mail</label>
+                    <input class="textinput" type="text" name="e-mail" id="e-mail" />
                 </div>
                 
-                <div class="contact-message">
+                <div class="contact-message contact-box">
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="100" rows="5"></textarea>
-                    <input type="submit" name="send" id="send" value="Send message" />
+                    <textarea  class="textinput" name="message" id="message"></textarea>
+
+                    <input class="contact-submit-button" type="submit" name="send" id="send" value="Send message" />
                 </div>
-                
-                
-                
 
             </form>
         <!-- </main> -->
 
         <footer class="footer-common">
-            <a href="contact.html"><img src="img/email-small.png" alt="email"></a>
+            <a href="mailto:ctallner@hotmail.com"><img src="img/email-small.png" alt="email"></a>
         </footer>
 
     </div>
