@@ -426,7 +426,7 @@ a{
 }
 
 /* mobile breakpoint */
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     /* INDEX STYLING */
     .index-wrapper{
         grid-template-columns: auto;
