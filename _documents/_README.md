@@ -25,3 +25,4 @@ QUESTIONS:
 - How to structure html code with semantic tags?  
 - How to align mailsymbol in footer with pictures above? need to use more columns?  
 - How to include code in HTML? Eg, I do not want to have footer code on all html-pages, i just wanna point at the code  
+- How to make a fly-out menu for the mobile pages?
