@@ -430,7 +430,7 @@ a{
     /* INDEX STYLING */
     .index-wrapper{
         grid-template-columns: auto;
-        grid-template-rows: 25% 5% 5% 54% 1%;
+        grid-template-rows: 1% 1% 1% auto 1%;
     }
     .index-header{
         grid-row: 1/2;
