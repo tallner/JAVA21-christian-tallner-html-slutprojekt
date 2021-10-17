@@ -427,6 +427,45 @@ a{
 
 /* mobile breakpoint */
 @media (max-width: 450px) {
+    /* INDEX STYLING */
+    .index-wrapper{
+        grid-template-columns: auto;
+        grid-template-rows: 25% 5% 5% 54% 1%;
+    }
+    .index-header{
+        grid-row: 1/2;
+        grid-column: 1;
+
+        display: block;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .index-cite{
+        grid-row: 2/3;
+        grid-column: 1;
+
+        display: block;
+        text-align: center;
+    }
+    .index-enter{
+        grid-row: 3/4;
+        grid-column: 1;
+
+        padding: 4px 7px;
+    }
+
+    .index-footer{
+        grid-row: 5/6;
+        grid-column: 1;
+    }
+    .index-footer img{
+        width: 30px;
+    }
+
+    .index-img{
+        grid-row: 4/5;
+        grid-column: 1;
+    }
 
     .wrapper-common{
         grid-template-columns: auto; /**/
