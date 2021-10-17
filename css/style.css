@@ -430,13 +430,13 @@ a{
     /* INDEX STYLING */
     .index-wrapper{
         grid-template-columns: auto;
-        grid-template-rows: 50% 1% 1% auto 1%;
+        grid-template-rows: 30% 10% 5% auto 2%;
     }
     .index-header{
         grid-row: 1/2;
         grid-column: 1;
 
-        display: flex;
+        /* display: flex; */
         text-align: center;
         padding-top: 1rem;
     }
@@ -444,7 +444,7 @@ a{
         grid-row: 2/3;
         grid-column: 1;
 
-        display: flex;
+        /* display: flex; */
         text-align: center;
     }
     .index-enter{
