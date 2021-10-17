@@ -466,7 +466,13 @@ a{
         grid-row: 4/5;
         grid-column: 1;
 
+        border: red solid 1px;
+
         height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .wrapper-common{
