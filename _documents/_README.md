@@ -23,9 +23,11 @@ QUESTIONS:
 - My hover effects on the email symbol sucks  
 - When using one CSS and many html, always use classes to separate items?  
 - How to structure html code with semantic tags?  
-- How to align mailsymbol in footer with pictures above? need to use more columns?  
--
-- How to include code in HTML? Eg, I do not want to have footer code on all html-pages, i just wanna point at the code  
-- How to make a fly-out menu for the mobile pages?
+- How to align mailsymbol in footer with pictures above? need to use more columns? 
 - On mobile page for about the text and linkes overlaps
-- How does sticky works?
+-
+
+- How to include code in HTML? Eg, I do not want to have footer code on all html-pages, i just wanna point at the code
+- How to make a fly-out menu for the mobile pages?
+- How does sticky works? Cannot get it to work for my footer
+- contact information on contact page enough?
