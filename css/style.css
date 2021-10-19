@@ -495,7 +495,6 @@ a{
 
         padding: 4px 7px;
     }
-
     .index-footer{
         grid-row: 5/6;
         grid-column: 1;
@@ -503,7 +502,6 @@ a{
     .index-footer img{
         width: 30px;
     }
-
     .index-img{
         grid-row: 4/5;
         grid-column: 1;
@@ -534,6 +532,9 @@ a{
         grid-row: 1/2;
         grid-column: 1;
         justify-content: center;
+
+        top: 0;
+        position: sticky;
     }
     .footer-common{
         grid-row: 4/5;
