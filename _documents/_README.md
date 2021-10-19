@@ -28,3 +28,4 @@ QUESTIONS:
 - How to include code in HTML? Eg, I do not want to have footer code on all html-pages, i just wanna point at the code  
 - How to make a fly-out menu for the mobile pages?
 - On mobile page for about the text and linkes overlaps
+- How does sticky works?
