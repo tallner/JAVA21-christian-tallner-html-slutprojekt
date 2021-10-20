@@ -52,12 +52,17 @@ QUESTIONS:
 - Design page layout better
 
 
-PRESENTATION
+-->PRESENTATION<--
 - Overall wanted to have a pretty clean design, maybe it turned out a bit too clean :)
 - Focused on turned out to be a website CV...
 - Have a common wrapper, header, footer and nav for all pages
-- Projects page was a bit messy, no distinct differentiation between
+- Projects page was a bit messy, no distinct differentiation between header and projects flexbox
 - In the header i kept my name and a nav that moves depending on resolution
 - The footer i intentionally only had a contact icon
 - The contact icon opens your mail client and so does the contact page since i didn't know how to do it in another way
-- Ab
+- About me was just a picture of me and some personal links
+- Projectpages:
+--> 3 projects I've made, including this
+--> 1 from work, 1 from another course
+--> All projectpages same layout, a couple of pictures with some text and linkes to the relevants
+--> On the mobile resolution the pictures are scrolled horizontally
