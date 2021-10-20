@@ -26,8 +26,27 @@ QUESTIONS:
 - How to align mailsymbol in footer with pictures above? need to use more columns? 
 - On mobile page for about the text and linkes overlaps
 -
-
 - How to include code in HTML? Eg, I do not want to have footer code on all html-pages, i just wanna point at the code
 - How to make a fly-out menu for the mobile pages?
 - How does sticky works? Cannot get it to work for my footer
 - contact information on contact page enough?
+
+
+-->RESULT<--
+1. 
+- Most fun with this project was that it is a something that can be used and maintained during my career
+- The handledningsdagar was really good, both to get help and to hear about others problems, but also to set aside time.
+
+2. Problems during project
+- Include HTML code. Now I have footer and header code at each page. They use the same classes but the content is on the individual page
+- Coding design, in this case how to structure the styles in one CSS
+- It was a bit tricky to find the resize attribute for the contact page so that the textboxes resize with the window
+- Estimate the time and effort needed in order to make such a simple website
+- Finding, evaluating and understanding information
+- Specification when you don't have any experience, hard to specify details
+
+3. Next time
+- Mobile first design due to best pratice
+- Spend more time in specification (eg deside all basic functionality and design)
+- Spend more time in getting rid of double coding instead of graphical details
+- Design page layout better
