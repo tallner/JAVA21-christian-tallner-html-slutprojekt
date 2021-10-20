@@ -50,3 +50,7 @@ QUESTIONS:
 - Spend more time in specification (eg deside all basic functionality and design)
 - Spend more time in getting rid of double coding instead of graphical details
 - Design page layout better
+
+
+PRESENTATION
+- All pages have the same 
