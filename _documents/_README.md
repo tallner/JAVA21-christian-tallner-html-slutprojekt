@@ -53,4 +53,9 @@ QUESTIONS:
 
 
 PRESENTATION
-- All pages have the same 
+- Overall wanted to have a pretty clean design, maybe it turned out a bit too clean :)
+- Have a common wrapper, header, footer and nav for all pages
+- Projects page was a bit messy, no distinct differentiation between
+- In the header i kept my name and a nav that moves depending on resolution
+- The footer i intentionally only had a contact icon
+- The contact icon opens your mail client and so does the contact page since i didn't know how to do it in another way 
