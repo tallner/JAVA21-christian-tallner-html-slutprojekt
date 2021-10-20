@@ -40,9 +40,11 @@ QUESTIONS:
 2. Problems during project
 - Include HTML code. Now I have footer and header code at each page. They use the same classes but the content is on the individual page
 - Coding design, in this case how to structure the styles in one CSS
+
 - It was a bit tricky to find the resize attribute for the contact page so that the textboxes resize with the window
 - Estimate the time and effort needed in order to make such a simple website
 - Finding, evaluating and understanding information
+
 - Specification when you don't have any experience, hard to specify details
 
 3. Next time
@@ -50,17 +52,26 @@ QUESTIONS:
 - Spend more time in specification (eg deside all basic functionality and design)
 - Spend more time in getting rid of double coding instead of graphical details
 - Design page layout better
+- Coding reviews
 
 
 -->PRESENTATION<--
 - Overall wanted to have a pretty clean design, maybe it turned out a bit too clean :)
 - Focused on turned out to be a website CV...
+- Projects page was a bit messy, no distinct differentiation between header 
+
 - Have a common wrapper, header, footer and nav for all pages
-- Projects page was a bit messy, no distinct differentiation between header and projects flexbox
+
+- All projects in flexbox
+
 - In the header i kept my name and a nav that moves depending on resolution
+
 - The footer i intentionally only had a contact icon
+
 - The contact icon opens your mail client and so does the contact page since i didn't know how to do it in another way
+
 - About me was just a picture of me and some personal links
+
 - Projectpages:
 --> 3 projects I've made, including this
 --> 1 from work, 1 from another course
