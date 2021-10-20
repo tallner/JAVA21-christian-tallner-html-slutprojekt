@@ -65,4 +65,4 @@ QUESTIONS:
 --> 3 projects I've made, including this
 --> 1 from work, 1 from another course
 --> All projectpages same layout, a couple of pictures with some text and linkes to the relevants
---> On the mobile resolution the pictures are scrolled horizontally
+--> On the mobile resolution the pictures are scrolled horizontally and nav is sticky
